@@ -1,0 +1,337 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url("bg.jpg");
+    background-size: cover;
+    /* background-repeat: repeat-y; */
+}
+
+/* .bg {
+    background-image: url("bg.jpg");
+    background-size: cover;
+    background-repeat: repeat-y;
+} */
+
+.logo {
+    background-image: url("paper-plane-logo.png");
+    height: 40px;
+    width: 40px;
+    border: 2px solid white;
+    background-size: cover;
+    border-radius: 50%;
+    margin-left: 30px;
+}
+
+.navbar {
+    display: flex;
+    position: sticky;
+    top: 0px;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.857);
+    height: 55px;
+}
+
+a {
+    text-decoration: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    color: white;
+    font-weight: 800;
+    transition-property: all 3s ease-out;
+}
+
+.ele {
+    display: flex;
+    align-items: center;
+    width: 50vw;
+    justify-content: space-between;
+}
+
+.title {
+    height: 80vh;
+    width: 100vw;
+    font-size: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn {
+    font-size: 20px;
+    height: 40px;
+    width: 80px;
+    margin: 20px;
+    border-radius: 7px;
+    border: 2px solid white;
+    background: none;
+    color: white;
+}
+
+.maj {
+    background-color: rgba(0, 0, 0, 0.899);
+    padding: 50px;
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    border-radius: 20px;
+    padding: 30px;
+}
+
+h1 {
+    font-size: 70px;
+    margin: 10px;
+}
+
+h6 {
+    font-size: 20px;
+    margin: 10px;
+}
+
+small {
+    font-size: 50px;
+}
+
+.login {
+    background-color: rgba(0, 0, 0, 0.899);
+    padding: 50px;
+    width: 40vw;
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    border-radius: 20px;
+    padding: 30px;
+}
+
+.sub {
+    width: 70px;
+    border: none;
+    text-align: center;
+    padding: 2px;
+    margin: 10px;
+    border-radius: 3px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+
+.logs {
+    width: 200px;
+    font-size: 18px;
+    border-radius: 4px;
+    border: none;
+    padding: 4px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 8px;
+}
+
+.Main-sec{
+    width: 100vw;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+}
+
+/* .bg1{
+    background-color: rgb(143, 208, 208);
+    background-image: none;
+} */
+
+
+
+/* .card{
+    height:100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} */
+.quantity-selector {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin:10px;
+}
+
+/* .quantity-btn {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    font-size: 10px;
+    height:16px;
+    cursor: pointer;
+    padding: 8px 12px;
+} */
+
+#quantity {
+    visibility: hidden;
+    width: 60px;
+    border:1px solid grey;
+    border-radius: 5px;
+    height:16px;
+    text-align: center;
+    font-size: 16px;
+}
+
+.box{
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly;
+    flex-direction: column;
+    border:2px solid rgb(0, 0, 0);
+    width:260px;
+    min-height:320px;
+    margin:10px;
+    padding:5px;
+    border-radius:10px;
+    background-color:rgba(0, 0, 0, 0.899);
+}
+
+
+
+img{
+    display: inline;
+    width:100%;
+    /* height:80%; */
+    border-radius: 10px;
+}
+
+.text h2{
+    font-size: 30px;
+    margin:10px;
+    color:white;
+}
+
+
+#but{
+    color:aliceblue;
+    background-color: rgba(64, 64, 206, 0.264);
+    /* border:2px solid rgb(64, 64, 206); */
+    border-radius:30px;
+    padding:15px;
+    margin:13px;
+}
+
+.sle:hover #quantity{
+    visibility: visible;
+}
+
+/* Sampada  */
+
+/*.summary{
+    width: 100%;
+    /* font-size: x-large; 
+}
+.sum_table th tr td{
+    width: 40em;
+    display:block;
+    margin-left: 30vw;
+    
+    background-color: rgba(0, 0, 0, 0.899);
+    color: white;
+    margin: 5px;
+    border: 1px solid black;
+}
+.sum_table th{
+    background-color: rgba(0, 0, 0, 0.899);
+}*/
+
+
+.tab{
+    /* display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center; */
+    
+    background-color: rgba(0, 0, 0, 0.899);
+    color: white;
+    border-radius: 40px;
+    width: 60%;
+    padding: 25px;
+    /* border: 1px solid lightslategray; */
+    /* height: 60vh; */
+    text-align: center;
+    display: block;
+    margin-left: 300px;
+    text-decoration: none;
+    font-size: 30px;
+
+
+}
+.table{
+    table-layout: fixed;
+}
+.table th{text-transform: uppercase; background-color: rgba(68, 123, 141, 0.5);}
+.table,tr,th,td{
+    border: 1px solid lightslategray;
+    border-collapse: collapse;
+    /* padding: 20px; */
+    width:90%;
+    justify-content: space-evenly;
+}
+th,td{
+    /* justify-content: space-evenly; */
+    padding: 20px;
+    column-width:100px;
+}
+
+
+button{
+    background-color: rgba(0, 0, 0, 0.899);
+    display:inline-block;
+    position:absolute;
+    margin: 50px;
+    color: white;
+    width: 100px;
+    height: 50px;
+    border-radius: 5px;
+    font-size: larger;
+
+}
+
+.reserve{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.899);
+    width:35em;
+    height:35em;
+    border-radius: 40px;
+    margin-left: 30em;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2em;
+
+}
+
+
+.reserve input,label{
+    display: inline-block;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size:large;
+    margin: 10px;
+    margin-top: 20px;
+    justify-content: space-evenly;
+
+}
+.reserve h1{
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+.btn-reserve{
+    background-color: white;
+    color: black;
+   margin: 0;
+   margin-left: 130px;
+}
